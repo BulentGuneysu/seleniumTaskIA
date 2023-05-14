@@ -24,7 +24,7 @@ public class SeleniumExecutor implements Executor {
 
     @Override
     public void SetCodeAndClickNext(String code) {
-          throw new org.apache.commons.lang3.NotImplementedException("Implement this method");
+         System.out.println();
     }
 
 
