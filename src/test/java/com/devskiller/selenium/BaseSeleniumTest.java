@@ -20,9 +20,9 @@ public class BaseSeleniumTest {
   @BeforeClass
   public static void prepareWebDriver() {
     WebDriverManager
-      .chromedriver()
-      .avoidResolutionCache()
-      .setup();
+            .chromedriver()
+            .avoidResolutionCache()
+            .setup();
   }
 
   @Before
